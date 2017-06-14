@@ -1,0 +1,508 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: Experience Tv
+Theme URI: http://experiencetv.tv/
+Description: Tema de Experience Tv
+Author: Roka Creativa
+Author URI: http://www.roka.es
+Version: 1.0
+*/
+
+
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Estilos comentarios */
+
+body{
+  font-family: arial; 
+  font-size: 14px;
+  line-height: 1.6em;  
+}
+
+header{
+   position: relative;
+  background:url(images/INFO-03.png) no-repeat ;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto; 
+  height: 250px;
+}
+
+
+footer{
+  position: relative;
+  background:url(images/pie.png) no-repeat ;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto; 
+  height: 90px;
+}
+
+.wrapper{
+  
+  width:1024px;
+  height:auto;
+  margin:auto;
+      
+}
+
+#contenedor1{
+height: 680px; 
+
+}
+#contenedor2{
+
+height: 1300px;
+width: 95%;
+margin: 0 auto;
+padding: 25px 0 25px 0;
+}
+
+#contenedor3{
+height: 800px;
+width: 95%;
+margin: 0 auto;
+padding: 25px 0 25px 0;
+}
+
+#contenedor4{
+height: 500px;
+width: 95%;
+margin: 0 auto;
+padding: 50px 0 25px 0;  
+}
+
+
+#contenedor5{
+height: 520px;
+width: 100%;
+margin: 0 auto;
+background:url("http://experienceweb.roka.es/wp-content/themes/mitema/images/Otros-servicios-01.png") no-repeat;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto; 
+padding: 50px 0 0 0;  
+}
+
+#contenedor6{
+height: 700px;
+width: 95%;
+margin: 0 auto;
+padding: 50px 0 25px 0; 
+}
+
+#otrosserv{
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  height: 500px;
+  padding: 40px 0 0 0;
+}
+
+
+#titulo1{
+  font-size: 25px;
+}
+
+#titulo2{
+  position: absolute;
+  font-size: 25px;
+  top: -20px;
+  left: 45px;
+}
+
+#titulo3{
+  font-size: 25px; 
+}
+
+#titulo4{
+  font-size: 25px; 
+}
+
+#titulo5{
+  font-size: 25px; 
+}
+
+#titulo6{
+  font-size: 25px; 
+}
+
+#articulo1{
+width: 60%;
+float: left;
+padding: 30px;
+}
+
+#aside1{
+width: 30%;
+height: 600px;
+float: right; 
+padding: 50px 0 0 0;
+
+}
+
+#johan{
+  text-align: center;
+  padding: 0 60px 50px 0;
+}
+
+#texto1{
+  width: 1000px;
+  padding: 25px 0 0 0;
+}
+
+#fotos{
+  margin: 25px 0 25px 0;
+
+}
+
+#fot1{
+  text-align: center;  
+  width: 460px;
+  padding: 10px;
+  float:left;
+  
+}
+#fot2{
+  text-align: center;  
+  width: 460px;
+   padding: 10px;
+  float: left;
+  
+}
+
+
+#vid1{
+  margin: 50px 0 50px 0;
+  position: relative;
+  float: left;  
+  width: 25%;
+  height: 50px;  
+}
+#vid2{
+  margin: 50px 0 50px 0;
+  position: relative;
+  float: left;  
+  width: 25%;
+  height: 50px;  
+
+}
+#vid3{
+  margin: 50px 0 50px 0;
+  position: relative;
+  float: left;  
+  width: 25%;
+  height: 50px;
+  
+ 
+}
+#vid4{
+  margin: 50px 0 50px 0;
+  position: relative;
+  float: left;  
+  width: 25%;
+  height: 50px;  
+  
+}
+
+#vid5{  
+  margin: 250px 0 50px 0;
+  position: relative;
+  float: left;  
+  width: 50%;
+  height: 50px;  
+  
+}
+
+#video5{
+  position: absolute;
+  top: 45px;
+  left: 35px;
+}
+
+#video1,#video2,#video3,#video4 {
+  position: absolute;
+  top: 120px;
+  left: 28px;
+}
+
+#slider{ 
+  margin: 250px 0 50px 0;   
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50px;
+}
+
+#slider1{  
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+
+
+#info1{
+  float: left;  
+  width: 50%;
+}
+
+#info2{
+  float: left;  
+  width: 50%;
+}
+
+#radioleft{
+  
+  float: left;  
+  width: 65%;   
+}
+
+#radiorigth{
+  text-align: center;
+  float: left;  
+  width: 35%;   
+}
+
+#contactleft{  
+  float: left;
+  width: 33%;
+}
+
+#contactright{
+  padding: 0 0 0 8px;
+  float: left;
+  width: 66%;
+}
+
+#vid-cabecera{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+
+
+
+/*****Formulario Menu css****/
+ul {
+list-style: none;
+margin: 0;
+padding: 20px 0 0 40px;
+font-weight: normal;
+font-size: 12px;
+text-align: left;
+white-space: nowrap
+}
+ul li {
+display: inline;
+margin: 0 3px;
+}
+ul a {
+text-decoration: none;
+padding: 0 0 5px;
+border-bottom: 4px solid transparent;
+color: #ffffff;
+  }
+ul a#current  {
+border-color: #80b24c;  
+color:#ffffff;
+}
+
+ul a:hover {
+border-color: #80b24c;
+color: #ffffff;
+}
+
+.current-menu-item > a {
+  border-color: #80b24c;  
+color:#ffffff;
+}
+
+.commentlist li {
+  list-style: none !important;
+}
+ 
+#redes{
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  
+} 
+#red1, #red2, #red3{
+color: #ffffff;
+font-size: 13px;
+
+}
+
+.link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
+/*****Formulario Contacto css****/
+ol.forms { float: left; list-style: none; margin: 0; width: 100%; }
+ol.forms li {
+clear: both;
+float: left;
+margin-bottom: 18px;
+position: relative;
+width: 100%;
+}
+ol.forms label {
+cursor: pointer;
+display: block;
+float: left;
+font-weight: bold;
+padding-right: 20px;
+width: 100px;
+}
+ol.forms input, ol.forms textarea {
+border: 1px solid #7E8AA2;
+border-radius: 3px;
+font: inherit;
+-moz-border-radius: 3px;
+padding: 2px;
+-webkit-border-radius: 3px;
+width: 214px;
+}
+ol.forms textarea { height: 300px; width: 334px; }
+ol.forms input:focus, ol.forms textarea:focus { background-color: #f2f3f6; border-color: #ff9800; }
+.error { color: #f00; }
+ol.forms li .error { font-size: 12px; margin-left: 20px; }
+ol.forms li.textarea .error {
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+width: 100px;
+}
+ol.forms li.screenReader { margin-bottom: 0; }
+ol.forms li.buttons button {
+background: #CCC;
+border: none;
+color: #000;
+cursor: pointer;
+font: 16px/16px "Avenir LT Std", Helvetica, Arial, sans-serif;
+overflow: hidden;
+padding: 6px 3px 3px 3px;
+
+text-transform: uppercase;
+width: auto;
+}
+ol.forms li.buttons button:hover { color: #222; }
+ol.forms li.buttons button:active { left: -1px; position: relative; top: -1px; }
+ol.forms li.buttons, ol.forms li.inline { float: right; width: 460px; }
+ol.forms li.inline input { width: auto; }
+ol.forms li.inline label { display: inline; float: none; width: auto; }
+
+
+.comment-body {
+  padding: 15px;
+}
+ 
+.comment-author {
+  margin-top: 5px;
+}
+ 
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+ 
+ 
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+ 
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+ 
+.depth-2, .depth-4 {
+   background-color: #fff;
+}
+ 
+.comment-author-eSandra {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+ 
+.depth-1 {
+   margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+ 
+ 
+.depth-2 {
+  margin:2% 5% !important;
+}
+ 
+.depth-3 {
+   margin: 2% 7% !important;
+}
+ 
+ 
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}0
+1
++
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+
+
+/* Fin estilos comentarios */

@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: Teide Tema
+Theme URI: http://www.mitema.com
+Description: Tema de Wordpress
+Author: Jesús Villegas
+Author URI: 
+Version: 1.0
+*/
+
+html, body {
+	margin:0px; padding:0px; width:auto; height:auto;	
+    
+	 background-color:#FFFFFF;   } 
+#menu1{
+	position:relative;
+	background:url(images/menubar_02.png) no-repeat;
+	width:1000px;
+	height:62px;	
+}
+	  
+.wrapper{
+background:url(images/teide-pw.jpg) no-repeat;
+width:1000px;
+height:950px;
+margin-right: auto;
+margin-left: auto;
+}
+
+/*Slider principal */
+#sliderprin{
+	background:url(images/teide-fnd.png) no-repeat;
+	position:relative;
+	float:left;
+	left:105px;
+	top:72px;
+	width:380px;
+	height:673px;
+	
+	
+}
+
+#sliderprinint{	
+	position:relative;
+	left:7px;
+	top:7px;
+	width:367px;
+	height:660px;
+	
+	
+}
+
+/* Mensaje inicio principal */
+#msjprinder{
+	background:url(images/teide-slicer_01.png) no-repeat;
+	position:relative;
+	float:left;
+	left:115px;
+	top:72px;
+	width:389px;
+	height:361px;
+	
+	
+}
+
+#msjprinderint{
+	background:url(images/teide-logo-inf.png) no-repeat center top;	
+	position:relative;
+	float:left;
+	left:7px;
+	top:7px;	
+	width:389px;
+	height:170px;
+	
+	
+}
+
+#msjprinderinttxt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; font-weight:normal;	
+	position:relative;
+	float:left;
+	left:7px;
+	top:7px;
+	padding:5px;
+	width:370px;
+	height:190px;
+	
+	
+}
+
+
+/*Menu principal */
+@font-face {font-family:"Bellerose Light";
+src:url("fonts/Bellerose.eot?") 
+format("eot"),
+url("fonts/Bellerose.woff") format("woff"),
+url("fonts/Bellerose.ttf") format("truetype"),
+url("fonts/Bellerose.svg#BelleroseLight") format("svg");
+font-weight:normal;font-style:normal;
+}
+
+@font-face { 
+font-family:"Britannic Bold";
+src:url(fonts/britannic-bold.ttf);
+}
+
+
+#menu-menu-1 {  padding-right:20px; }
+#menu-menu-1 li { display: inline; }
+#menu-menu-1 li a { 
+text-shadow: 1px 1px 1px #000;
+font-family: "Bellerose Light"; 
+font-size:25px;
+color:#FFF; 
+text-decoration: none; 
+float:right;
+padding-left:15px;
+padding-right:15px;
+text-transform:uppercase;
+line-height:150%;
+
+ } 
+ 
+#menu-menu-1 li a:hover { 
+font-family: "Bellerose Light"; 
+font-size:25px;
+color:#4363a9;
+text-decoration: none; 
+float:right;
+padding-left:15px;
+padding-right:15px;
+text-transform:uppercase;
+line-height:150%;
+
+
+ }  
+
+#header-sup{
+	width:1000px;
+	height:60px;	
+	
+} 
+ 
+#logo{
+	margin-left:10px;	
+	position:relative;
+	left:30px;
+	top:-43px;
+	padding-left:5px;
+	width:183px;
+	height:116px;
+	
+}
+
+
+
+#areaservicios{
+	
+	background:url(images/slicer1-big.png) no-repeat;	
+	position:relative;
+	float:left;
+	left:105px;
+	top:72px;
+	width:778px;
+	height:722px;
+	
+}
+#areaserviciostxt{
+		
+	margin:30px 30px 30px 30px;	
+	float:left;	
+	width:718px;
+	height:662px;
+	
+}
+
+
+
+#areanosotros{
+	
+	background:url(images/slicer1-big.png) no-repeat;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	position:relative;
+	float:left;
+	left:105px;
+	top:72px;
+	width:778px;
+	height:722px;
+	
+}
+
+#areacontactos{
+	
+	background:url(images/slicer1-big.png) no-repeat;
+	padding:15px;
+	position:relative;
+	float:left;
+	left:105px;
+	top:72px;
+	width:778px;
+	height:722px;
+	
+
+}
+
+#areaerror{
+	
+	background:url(images/slicer1-big.png) no-repeat;
+	padding:15px;
+	position:relative;
+	float:left;
+	left:105px;
+	top:72px;
+	width:778px;
+	height:722px;
+	
+
+}
+
+#error404{
+	background:url(images/error_404.png) no-repeat;		
+	right:10px;
+	top:5px;
+	width:300px;
+	height:110px;
+	
+	}
+#error404msj{
+	margin-top:40px;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px; font-weight:normal;		
+	}
+
+
+/* Estilos comentarios */
+
+.commentlist li {
+  list-style: none !important;
+}
+ 
+ 
+.comment-body {
+  padding: 15px;
+}
+ 
+.comment-author {
+  margin-top: 5px;
+}
+ 
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+ 
+ 
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+ 
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+ 
+.depth-2, .depth-4 {
+   background-color: #fff;
+}
+ 
+.comment-author-eSandra {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+ 
+.depth-1 {
+   margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+ 
+ 
+.depth-2 {
+  margin:2% 5% !important;
+}
+ 
+.depth-3 {
+   margin: 2% 7% !important;
+}
+ 
+ 
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}0
+1
++
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+
+
+/* Fin estilos comentarios */
+

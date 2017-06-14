@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: CGM
+Version: 1.0
+*/
+
+
+/* Estilos comentarios */
+
+html, body{ padding:0; margin:0px;  	 }
+ul{padding:0}
+
+body{
+background:url(images/fondo.jpg) no-repeat ;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto; 
+font-size:100%;}
+
+.wrapper{
+	
+	width:1024px;
+	height:auto;
+	margin:auto;
+	
+	
+	
+}
+
+.panel_inf_top{  width:1024px; height:394px; z-index:2; }
+.panel_inf{ background:url(images/panel-inferior.png) no-repeat; width:1024px; height:394px;; z-index:1;  }
+
+.tit_arti{ position:absolute; color:#FFF; font-size:35px; font-family:"Gotham Bold";  width:410px; margin-top:20px; margin-left:270px; line-height:300% }
+.tit_arti_dob{ position:absolute; color:#FFF; font-size:35px; font-family:"Gotham Bold";  width:410px; margin-top:20px; margin-left:270px;   }
+.txt_arti{ position:absolute; color:#FFF; font-size:15px; font-family:"Gotham Ligth";  width:460px; height:auto; max-height:200px;  margin-top:130px; margin-left:280px; overflow:hidden ; vertical-align:bottom  }
+.txt_arti-scroll{ position:absolute; color:#FFF; font-size:15px; font-family:"Gotham Ligth";  width:460px; height:auto; max-height:200px;  margin-top:130px; margin-left:280px; overflow-y: scroll; vertical-align:bottom }
+
+#lateral-sup{position:absolute; width:211px; margin-top:30px; margin-left:800px; height:50px; background:url(images/texto-servicios.png) no-repeat }
+
+#inicio{position:absolute; width:211px; margin-top:60px; margin-left:33px; height:50px; background:url(images/boton-de-inicio.png) no-repeat; float:left; cursor:pointer     }
+
+
+
+#lateral-inf{position:absolute; width:250px; margin-top:110px; margin-left:787px; height:50px; }
+
+#menu1{position:relative; display:inline-block; float:left; width:100%; margin-top:5px; height:50px; top:-30px }
+
+#img_superior-aires{background:url(images/aires-acondicionados-cabecera.png) no-repeat; width:1024px; height:373px}
+#img_superior-izono{background:url(images/cabecera-impermeabilizaciones.png) no-repeat; width:1024px; height:373px}
+#img_superior-extrac{background:url(images/cabecera-extraccion-y-ventilacion.png) no-repeat; width:1024px; height:373px}
+#img_superior-instala{background:url(images/cabecera-instalaciones-electricas.png) no-repeat; width:1024px; height:373px}
+#img_superior-fonta{background:url(images/cabecera-fontaneria.png) no-repeat; width:1024px; height:373px}
+
+
+#menu-menu-principal-uno { width:100%; position:relative; top:-15px; }
+
+#menu-menu-principal-uno li { display:inline-block; padding-left:5px}
+#menu-menu-principal-uno li a { 
+font-family:"Gotham Normal";
+color:#4baaff; 
+text-decoration: none;
+text-transform:uppercase;
+font-size:0.625em;
+
+
+} 
+ 
+#menu-menu-principal-uno li a:hover { 
+font-family:"Gotham Normal";
+color:#4baaff; 
+text-decoration: none;
+text-transform:uppercase;
+font-size:0.625em;
+
+} 
+
+#menu-menu-principal-uno img{ width:100%; height:auto}
+#menu-menu-principal-uno img{ 
+ /* Aumentamos la anchura y altura durante 2 segundos */
+ transition: width 1s, height 1s, transform 1s;
+ -moz-transition: width 1s, height 1s, -moz-transform 1s;
+ -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+ -o-transition: width 1s, height 1s,-o-transform 1s;
+    
+}
+#menu-menu-principal-uno img:hover{ 
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(1.2);
+        -moz-transform : scale(1.2);      /* Firefox */
+        -webkit-transform : scale(1.2);   /* Chrome - Safari */
+        -o-transform : scale(1.2);        /* Opera */
+  }
+
+
+
+
+#menu-menu-principal-dos { width:100%; position:relative; top:-15px; }
+
+#menu-menu-principal-dos li { display:inline-block; padding-left:5px}
+#menu-menu-principal-dos li a { 
+font-family:"Gotham Normal";
+color:#4baaff; 
+text-decoration: none;
+text-transform:uppercase;
+font-size:0.625em;
+
+} 
+ 
+#menu-menu-principal-dos li a:hover { 
+font-family:"Gotham Normal";
+color:#4baaff; 
+text-decoration: none;
+text-transform:uppercase;
+font-size:0.625em;
+
+} 
+
+#menu-menu-principal-dos img{ width:100%; height:auto}
+#menu-menu-principal-dos img{ 
+ /* Aumentamos la anchura y altura durante 2 segundos */
+ transition: width 1s, height 1s, transform 1s;
+ -moz-transition: width 1s, height 1s, -moz-transform 1s;
+ -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+ -o-transition: width 1s, height 1s,-o-transform 1s;
+    
+}
+#menu-menu-principal-dos img:hover{ 
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(1.2);
+        -moz-transform : scale(1.2);      /* Firefox */
+        -webkit-transform : scale(1.2);   /* Chrome - Safari */
+        -o-transform : scale(1.2);        /* Opera */
+  }
+
+
+
+
+@font-face {font-family:"Gotham Bold";
+src:url("fonts/Gotham-Bold.otf") 
+}
+@font-face {font-family:"Gotham Normal";
+src:url("fonts/Gotham-Medium.otf") 
+}
+@font-face {font-family:"Gotham Ligth";
+src:url("fonts/Gotham-Light.otf") 
+}
+@font-face {font-family:"The Last Time";
+src:url("fonts/kgthelasttime.ttf") 
+}
+
+.commentlist li {
+  list-style: none !important;
+}
+ 
+ 
+.comment-body {
+  padding: 15px;
+}
+ 
+.comment-author {
+  margin-top: 5px;
+}
+ 
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+ 
+ 
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+ 
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+ 
+.depth-2, .depth-4 {
+   background-color: #fff;
+}
+ 
+.comment-author-eSandra {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+ 
+.depth-1 {
+   margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+ 
+ 
+.depth-2 {
+  margin:2% 5% !important;
+}
+ 
+.depth-3 {
+   margin: 2% 7% !important;
+}
+ 
+ 
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}0
+1
++
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+
+
+/* Fin estilos comentarios */
+

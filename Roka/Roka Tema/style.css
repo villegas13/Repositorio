@@ -1,0 +1,822 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: Tema Roka
+Description: Tema de Wordpress
+Author: Jesús Villegas
+Version: 1.0
+*/
+
+
+html, body {
+	margin:0px; padding:0px; width:auto; height:100%; 	
+   ;
+    
+	  } 
+
+p {
+margin: 0 auto;
+}	  
+
+#frmsintxt p{
+margin-bottom:10px;
+}
+	  
+@font-face {font-family:"Gotham Light";
+src:url("fonts/Gotham-Light.otf") 
+}
+@font-face {font-family:"Gotham Normal";
+src:url("fonts/Gotham-Medium.otf") 
+}
+@font-face {font-family:"Gotham Bold";
+src:url("fonts/Gotham-Bold.otf") 
+}	  
+
+#header {
+	width:100%;
+	height:75px;
+	background-color:#000; 
+	box-shadow:0 0 10px rgba(0,0,0,0.5);	
+	top:0; left:0;
+	position:fixed;
+	z-index: 1;	
+}
+
+footer {    /*  Efecto scroll footer */
+width: 100%;
+position: fixed;
+z-index: -1;
+bottom: 0;
+height: auto;
+}
+
+
+#main{
+margin-bottom: 340px;/* alto footer*/	
+/* box-shadow:0 0 10px rgba(0,0,0,0.5);*/
+}
+#main-single{
+margin-bottom: 340px;/* alto footer*/	
+}
+#main-terlegales{
+margin-bottom: 340px;/* alto footer*/
+}
+#main-presupuesto{
+height:700px;
+margin-bottom: 350px;/* alto footer*/	
+
+}
+
+@media (max-width: 850px)  {/* agregado */	
+footer{ position:static;}
+#main{margin-bottom:0px;}
+}
+
+/*  fin efecto p. scroll footer */
+
+
+.sombratxt1{
+text-shadow: 1px -1px 2px rgba(255, 255, 255, 1);	
+}
+	  
+#header-sup{
+	width:100%;
+	height:80px;	
+	background-color:#000;
+} 
+	  
+	  
+
+	  
+
+	  
+#menu1{
+	
+	position:relative;	
+	width:740px;
+	top:15px;
+	float:right
+	
+	
+}
+
+#logo{
+	background:url(images/logo.png) no-repeat;
+	position:relative;
+	left:30px;
+	top:2px;
+	width:195px;
+	height:70px ;	
+	
+	
+}
+
+/* Pagina no encontrada  */
+
+#error404{
+	
+	width:100%;	
+	
+}
+
+
+#error404txt{
+	
+	font-family:"Gotham Light";
+	width:95%;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-right: auto;
+    margin-left: auto;	
+}
+
+
+/*  Resultados de búsqueda*/
+
+#resultadosbus{
+	width:100%;		
+}
+
+#resultadosbustxt{
+	font-family:"Gotham Light";
+	width:95%;
+	margin-top:30px;
+	margin-right: auto;
+    margin-left: auto;			
+}
+
+	  
+.wrapper{
+background-color:#FFF;
+max-width:100%;
+height:auto;
+margin-top:75px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+#msjinicio{
+	width:100%;
+	
+}
+#msjiniciotxt{
+	font-family:"Gotham Normal";
+	width:95%;
+	margin-right: auto;
+    margin-left: auto;		
+}
+
+#msjnosotros{	
+	width:100%;
+	background-color:#E1E1E1;
+}
+
+#msjnosotrostxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:13px;
+	padding-bottom:30px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+#msjservicios{	
+	background-color:#E1E1E1;
+	width:100%;
+}
+
+#msjserviciostxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:10px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+#msjpie{	
+	background-color:#E1E1E1;
+	width:100%;	
+	height:auto;   /* agreg. alto del footer  */
+	
+}
+
+#msjpietxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:10px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+
+#tabpost{		
+	width:100%;
+}
+
+#tabposttxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:10px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+#tabterm{		
+	width:100%;
+}
+
+#tabtermtxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:10px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+#frmpresupuesto{
+	padding-top:40px;	
+	font-family:"Gotham Light";
+	width:100%;
+
+}
+
+#frmpresupuestotxt{
+	text-align:left;
+	font-family:"Gotham Light";
+	height:auto;
+	width:350px;
+	padding:30px 5px 50px 5px;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+
+
+
+
+#menu-menu-1 {  padding-right:20px; }
+#menu-menu-1 li { display: inline; }
+#menu-menu-1 li a { 
+font-family:"Gotham Light"; 
+font-size:14px;
+color:#FFF; 
+text-decoration: none; 
+padding:4px 9px 4px 6px;
+text-transform:uppercase;
+line-height:100%;
+border-right: 1px solid #FFFFFF ; /*  Separador */
+ } 
+#menu-menu-1 li:last-child a { border-right:none;  } /* Excluye ultimo item separador*/
+ 
+ 
+#menu-menu-1 li a:hover { 
+font-family:"Gotham Light"; 
+font-size:14px;
+color:#009cde; 
+text-decoration: none; 
+padding:4px 9px 4px 6px;
+text-transform:uppercase;
+line-height:100%;
+
+
+
+ } 
+
+
+#imgpresupuestoobj{
+	padding:40px 0 40px 0;	
+}
+
+#imgtempranoobj{
+	padding:30px 0 0px 0;	
+}
+#imgsecunobj{
+	padding:0;	
+}
+ 
+#imgvelocidobj{
+	padding:0;	
+} 
+ 
+#imgultimoobj{
+	padding:0;		
+}
+
+#imgsolucionobj{
+	padding:0;			
+}
+
+#imgdireccionobj{
+	padding:0;
+}
+ 
+ @media (max-width: 768px)  {	
+#wrapper{ margin-top:0px;}
+} @media (min-width: 769px)  {	
+#wrapper{ margin-top:75px;}
+}
+
+ 
+ /* Ajuste de servicios */
+
+#tbl2{display:none;}
+#tbl3{display:none;}
+#tbl4{display:none;}
+#tbl5{display:none;}
+#tbl1{display:block;}
+
+
+@media (min-width: 768px) and (max-width : 960px) {	
+#tbl1{display:none;}
+#tbl3{display:none;}
+#tbl4{display:none;}
+#tbl5{display:none;}
+#tbl2{display:block;}
+}
+
+@media (min-width: 575px) and (max-width : 767px) {	
+#tbl1{display:none;}
+#tbl2{display:none;}
+#tbl4{display:none;}
+#tbl5{display:none;}
+#tbl3{display:block;}
+}
+
+@media (min-width: 382px) and (max-width : 574px) {	
+#tbl1{display:none;}
+#tbl2{display:none;}
+#tbl3{display:none;}
+#tbl5{display:none;}
+#tbl4{display:block;}
+}
+
+@media (max-width : 381px) {	
+#tbl1{display:none;}
+#tbl2{display:none;}
+#tbl3{display:none;}
+#tbl4{display:none;}
+#tbl5{display:block;}
+}
+
+
+#msjproductos{	
+	width:100%;
+	background-color:#E1E1E1;
+}
+
+#msjproductostxt{
+	text-align:justify;
+	font-family:"Gotham Light";
+	padding:13px;
+	padding-bottom:30px;	
+	height:auto;
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+	
+}
+
+#frmterminos{
+width:100%;	
+}
+#frmterminostxt{
+    text-align:justify;
+	font-family:"Gotham Light";
+
+	padding:30px;	
+	height:auto;
+	position:relative;
+	float:left;
+    margin-right: auto;
+    margin-left: auto;	
+
+}
+
+#frmsin{
+width:100%;		
+}
+#frmsintxt{
+    text-align:justify;
+	font-family:"Gotham Light";
+	padding:30px;	
+	height:auto;
+	position:relative;
+	float:left;
+    margin-right: auto;
+    margin-left: auto;	
+}
+
+
+
+#sidebar{
+	font-family:"Gotham Light";
+	padding:13px;
+	padding-bottom:30px;	
+	height:auto;
+	position:relative;
+	float:right;
+    margin-right: auto;
+    margin-left: auto;	
+}
+
+#leftterm, {
+	vertical-align:top;
+	width:70%; 	
+}
+#lefttight{
+	vertical-align:top;
+	width:30%;	
+}
+#leftsin{
+	vertical-align:top;
+	width:70%; 	
+}
+#rigthsin{
+	vertical-align:top;
+	width:30%;		
+}
+
+#txtmsjpie1{
+	font-family:"Gotham Light";
+	text-align:left;	
+}
+#txtmsjpie2{
+	font-family:"Gotham Light";
+	text-align:left;	
+}
+#txtmsjpie3{
+	font-family:"Gotham Light";
+	text-align:left;	
+}
+
+#derechos{
+	font-family:"Gotham Light";
+	width:100%;
+	
+}
+#derleft{
+	width:50%;
+	float:left;
+	
+}
+#derright{
+	width:50%;
+	float:right;
+
+
+}
+
+#red1{
+	float:right;
+	background:url(images/red1.png) no-repeat;
+	width:38px;
+	height:25px
+	
+}
+#red2{
+	float:right;
+	background:url(images/red2.png) no-repeat;
+	width:42px;
+	height:25px;
+	
+}
+#red3{
+	float:right;
+	background:url(images/red3.png) no-repeat;
+	width:41px;
+	height:25px;
+	
+}
+#red4{
+	float:right;
+	background:url(images/red4.png) no-repeat;
+	width:41px;
+	height:25px;
+
+}
+#red5{
+	float:right;
+	background:url(images/red5.png) no-repeat;
+	width:35px;
+	height:25px;
+
+}
+
+/* Ajuste pie de pagina responsive*/
+
+#tblcontacto1{display:block}
+#derleft{display:block}
+#tblcontacto2{display:none}
+#tblcontacto3{display:none}
+@media (min-width: 342px) and (max-width : 683px) {	
+#tblcontacto1{display:none}
+#tblcontacto3{display:none}
+#derleft{display:none; }
+#derright{width:100%}
+#tblcontacto2{display:block}
+}
+@media (max-width : 341px) {	
+#tblcontacto1{display:none}
+#tblcontacto2{display:none}
+#derleft{display:none; }
+#derright{width:100%}
+#tblcontacto3{display:block}
+}
+
+
+/* Ajuste terminos legales responsive*/
+
+#tblterminos1{display:block}
+#tblterminos2{display:none}
+@media (max-width : 800px) {	
+#tblterminos1{display:none}
+#tblterminos2{display:block}
+}
+
+
+/* Ajuste single responsive */
+#tblsingle1{display:block}
+#tblsingle2{display:none}
+@media (max-width : 800px) {	
+#tblsingle1{display:none}
+#tblsingle2{display:block}
+}
+
+
+
+/*  Ajuste según resolución ancho de contenido */
+
+/*#msjiniciotxt{ width:88%; }
+#msjnosotrostxt{ width:88%; }
+#msjserviciostxt{ width:88%; }
+#msjproductostxt{ width:88%; }
+#msjpietxt{ width:88%;  }
+#imgdireccionobj{ width:100%; }
+#tabposttxt{ width:88%;  }
+#tabtermtxt{ width:88%;}
+@media (min-width: 1200px)  {	
+#msjiniciotxt{ width:78%; }
+#msjnosotrostxt{ width:78%; }
+#msjserviciostxt{ width:78%; }
+#msjproductostxt{ width:78%; }
+#msjpietxt{ width:78%;  }
+#imgdireccionobj{ width:78%; }
+#tabposttxt{ width:78%; }
+#tabtermtxt{ width:78%;}
+
+}*/
+
+
+/*    Nuevos tamaños */ 
+
+#msjiniciotxt{ width:75%; }
+#error404txt{ width:75%; }
+#resultadosbustxt{ width:75%; } 
+#msjnosotrostxt{ width:70%; }
+#msjserviciostxt{ width:75%; }
+#msjproductostxt{ width:70%; }
+#msjpietxt{ width:75%;  }
+#imgdireccionobj{ width:75%; }
+#tabposttxt{ width:75%; }
+#tabtermtxt{ width:75%;}
+
+
+
+/*  efecto paralax */
+
+#efectoprinc {
+	background: url(images/principal.jpg) 50% 50% no-repeat fixed;
+	min-height:100%;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+
+#efecto1 {
+	background-image:url('images/temprano2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: center center;
+	min-height:100%;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	
+
+}
+
+#efecto2 {
+	background-image:url('images/secun2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: center center;
+	min-height:100%;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+
+#efecto3 {
+
+
+    background-image:url('images/solucion2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: 50% 50%;
+	min-height:100%;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	-o-background-size:cover ;
+	background-size:cover ;
+
+	
+}
+
+
+
+
+article{
+	padding: 100px 100px 100px 5px;
+
+}
+.geekhome{	
+	display: block;
+	position:relative;
+	top:0px;
+	height:150px;
+	width:auto;
+	margin: 0px auto;
+	
+}
+
+
+/* imagenes respons en wp con texto */
+
+.imgprinobjrespons {
+	position:relative;
+	text-align:right;
+}
+
+.imgprinobjrespons p{
+	position: absolute;
+	top:25%;
+	width:95%; 
+}
+
+#imgprincipal {
+	background:url(images/principal.jpg) no-repeat;
+	width:100%;max-width:100%;height:auto;	
+}
+
+
+#titulosolucion{
+	font-family:"Gotham Light";
+	padding-top:30px;
+}
+#titulosnosotros{
+	font-family:"Gotham Light";
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#tituloservicios{
+	font-family:"Gotham Light";
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#tituloproductos{
+	font-family:"Gotham Light";
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+/*  Estilos enlaces pie de pagina */
+.terminosleg{
+	color: #29abe2;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#txtmsjpie2 a,active{
+	color:#6b6c6c;
+	text-decoration:none;
+	font-weight:bold;
+}
+#txtmsjpie2 a:hover{
+	color: #c4007a;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+/* Estilos comentarios */
+
+.commentlist li {
+  list-style: none !important;
+}
+ 
+ 
+.comment-body {
+  padding: 15px;
+}
+ 
+.comment-author {
+  margin-top: 5px;
+}
+ 
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+ 
+ 
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+ 
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+ 
+.depth-2, .depth-4 {
+   background-color: #fff;
+}
+ 
+.comment-author-eSandra {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+ 
+.depth-1 {
+   margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+ 
+ 
+.depth-2 {
+  margin:2% 5% !important;
+}
+ 
+.depth-3 {
+   margin: 2% 7% !important;
+}
+ 
+ 
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}0
+1
++
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+
+
+/* Fin estilos comentarios */
+
